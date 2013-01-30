@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'bootstrap-sass'
 gem 'devise'
+# gem 'rb-readline'
 # gem 'rake', '0.9.2.2'
 
 # Bundle edge Rails instead:
