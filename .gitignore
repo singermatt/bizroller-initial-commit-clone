@@ -18,3 +18,13 @@
 /config/initializers/development_gmail_send_setup_mail.rb
 /config/initializers/production_sendgrid_setup_mail.rb
 # /config/initializers/setup_mail.rb
+
+# Ignore Misc
+
+OLDGemfile
+latest.dump
+push_201301181511.dat
+push_201301181613.dat
+push_201301181827.dat
+push_201301231538.dat
+v3.2

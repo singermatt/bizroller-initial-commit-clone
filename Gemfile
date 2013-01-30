@@ -1,14 +1,19 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.11'
+gem 'rails', '3.2.8'
 gem 'bootstrap-sass'
 gem 'devise'
+# gem 'rake', '0.9.2.2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development do
- 	gem 'sqlite3'
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
 end
 
 # Gems used only for assets and not required
@@ -25,9 +30,7 @@ end
 
 gem 'jquery-rails'
 
-group :production do
-	gem 'pg'
-end
+# gem "bigdecimal", "~> 1.1.0"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
